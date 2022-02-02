@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*HEADER */
+
+.header__boton{
+    border-color: white;
+    color: white;
+}
+
+
+
+#menu a {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+        
+                 /* MAIN */
+
+.main{
+    padding-left: 0;  
+}   
+
+.main__hero{
+    padding-left: 0;
+    padding-right: 0;
+}
+.main__contenedor{
+    width: 100%;
+    
+    padding-right: 0;
+}                 
+
+.main__img{
+    width: 100%;
+    
+}
+
+.main__contenedorTexto{
+    background-color: black;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main__encabezado{
+    color: white;
+}
+
+              /* FOOTER */
+
+.footer__facebook{
+    font-size: 50px;
+}
+
+.footer__instagram{
+    font-size: 50px;
+    color: #F009B1;
+}
+
+.footer__youtube{
+    font-size: 50px;
+    color: crimson;
+}
+
+@media screen and (max-width: 320px) {
+    #menu a {
+        font-size: 20px;
+        font-weight: bold;
+        color: white;
+    }
+}
